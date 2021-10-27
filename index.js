@@ -2,7 +2,7 @@ const express = require("express");
 const process = require("process");
 
 const app = express();
-const port = process.env.NODE_PORT;
+const port = process.env.PORT;
 
 //middleware
 app.use(express.json({ limit: "10mb" }));
